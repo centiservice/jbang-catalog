@@ -1,0 +1,12 @@
+{
+  "aliases": {
+    "activemq": {
+      "script-ref": "https://github.com/centiservice/mats3-examples/blob/main/jbang/ActiveMqRun.java",
+      "description": "Fires up a 'Mats3 optimized' developer ActiveMQ instance, which also includes the MatsBrokerMonitor to introspect messages on queues and DLQs, and reissue DLQed messages.",
+      "java-options": [
+        "-Xmx1280M"
+      ]
+    }
+  },
+  "templates": {}
+}
