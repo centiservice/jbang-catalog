@@ -6,6 +6,34 @@
       "java-options": [
         "-Xmx1280M"
       ]
+    },
+    "SimpleService": {
+      "script-ref": "https://github.com/centiservice/mats3-jbang/blob/main/jbang/simple/SimpleService.java",
+      "description": "Very simple, main-class style 'MicroService' starting a single-stage Mats3 Endpoint 'SimpleService.simple'. The rest of the 'SimpleService**' classes depends on this service running. You should read the java file!",
+      "java-options": [
+        "-Xmx128M"
+      ]
+    },
+    "SimpleServiceMainFuturization": {
+      "script-ref": "https://github.com/centiservice/mats3-jbang/blob/main/jbang/simple/SimpleServiceMainFuturization.java",
+      "description": "Demonstration exiting main-class that fires up a MatsFuturizer and queries the 'SimpleService.simple' Mats3 Endpoint. You should read the java file!",
+      "java-options": [
+        "-Xmx128M"
+      ]
+    },
+    "SimpleServiceMainTerminator": {
+      "script-ref": "https://github.com/centiservice/mats3-jbang/blob/main/jbang/simple/SimpleServiceMainTerminator.java",
+      "description": "Demonstration exiting main-class that fires up a Terminator endpoint, and then queries the 'SimpleService.simple' with replyTo the Terminator. You should read the java file!",
+      "java-options": [
+        "-Xmx128M"
+      ]
+    },
+    "SimpleServiceHttpServer": {
+      "script-ref": "https://github.com/centiservice/mats3-jbang/blob/main/jbang/simple/SimpleServiceHttpServer.java",
+      "description": "Starts a Jetty HTTP server, with a few URLs that you can go to and query the 'SimpleService.simple' endpoint. You should read the java file!",
+      "java-options": [
+        "-Xmx128M"
+      ]
     }
   },
   "templates": {}
