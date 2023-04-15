@@ -34,6 +34,41 @@
       "java-options": [
         "-Xmx128M"
       ]
+    },
+    "SpringSimpleService": {
+      "script-ref": "https://github.com/centiservice/mats3-jbang/blob/main/jbang/spring/SpringSimpleService.java",
+      "description": "Variant of 'SimpleService' defined by Mats SpringConfig. You should read the java file!",
+      "java-options": [
+        "-Xmx128M"
+      ]
+    },
+    "SpringSimpleServiceMainFuturization": {
+      "script-ref": "https://github.com/centiservice/mats3-jbang/blob/main/jbang/spring/SpringSimpleServiceMainFuturization.java",
+      "description": "Runs SpringSimpleServiceMainFuturization.java. You should read the java file!",
+      "java-options": [
+        "-Xmx128M"
+      ]
+    },
+    "SpringMediumService": {
+      "script-ref": "https://github.com/centiservice/mats3-jbang/blob/main/jbang/spring/SpringMediumService.java",
+      "description": "Runs SpringMediumService.java. You should read the java file!",
+      "java-options": [
+        "-Xmx128M"
+      ]
+    },
+    "SpringMediumServiceMainFuturization": {
+      "script-ref": "https://github.com/centiservice/mats3-jbang/blob/main/jbang/spring/SpringMediumServiceMainFuturization.java",
+      "description": "Runs SpringMediumServiceMainFuturization.java. You should read the java file!",
+      "java-options": [
+        "-Xmx128M"
+      ]
+    },
+    "SpringMediumServiceSpringFuturization": {
+      "script-ref": "https://github.com/centiservice/mats3-jbang/blob/main/jbang/spring/SpringMediumServiceSpringFuturization.java",
+      "description": "Runs SpringMediumServiceSpringFuturization.java. You should read the java file!",
+      "java-options": [
+        "-Xmx128M"
+      ]
     }
   },
   "templates": {}
